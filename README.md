@@ -43,3 +43,17 @@
 - command to run play book:
     - sudo ansible-playbook raj.yml --ask-vault-pass
 
+
+## SSH into ansible provisioned instance:
+- sudo update
+- sudo upgrade
+- copy and run provision script
+![](pics/provision_docker.png)
+- chmod provision.sh
+- run provision.sh
+    - ./provision.sh
+- docker login
+    - will be promted to enter: docker_hub
+        - User Name
+        - Password
+
